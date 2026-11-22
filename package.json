@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Pokédex-themed developer portfolio for Chakka Chinni Krishna",
   "scripts": {
+    "build": "echo 'Deploying static Pokédex portfolio...'",
     "dev": "node dev-server.js",
     "serve": "node dev-server.js"
   },
