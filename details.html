@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chakka Chinni Krishna · Portfolio Details</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Fullscreen white flash during Poké Ball catch sequence -->
+  <div id="flash" class="flash" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       VIEW 1: HOME / GRASS MEADOW (Interactive Poké Ball Scene)
+       ============================================================ -->
+  <section id="home" class="view">
+    <div class="wind" aria-hidden="true"></div>
+    <div class="bloom" aria-hidden="true"></div>
+
+    <div class="home-inner">
+      <div class="poke-stage">
+        <button id="pokeball" class="pokeball" aria-label="Open Krishna's Pokédex Portfolio">
+          <span class="pb-top"></span>
+          <span class="pb-bottom"></span>
+          <span class="pb-band"></span>
+          <span class="pb-button"></span>
+          <span class="pb-shine"></span>
+          <span class="pb-sparkle"></span>
+        </button>
+      </div>
+
+      <button id="hintBtn" class="hint">
+        <span>⚡ Tap to meet Krishna</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       VIEW 2: DETAILS / POKÉDEX DIGITAL SPACE
+       ============================================================ -->
+  <main id="info" class="view is-active">
+
+    <!-- Ambient Sky: Drifting Clouds -->
+    <div class="scene" aria-hidden="true">
+      <span class="cloud c1"></span>
+      <span class="cloud c2"></span>
+      <span class="cloud c3"></span>
+      <span class="cloud c4"></span>
+    </div>
+
+    <div class="site">
+
+      <!-- Navigation Top Bar -->
+      <div class="site-top">
+        <a href="index.html" class="pdx-back" aria-label="Back to grass">
+          <span class="pdx-back-arrow">←</span> Back to Grass
+        </a>
+        <div class="site-status-badge">
+          <span class="status-dot"></span>
+          <span>Available for Software &amp; Full-Stack Roles</span>
+        </div>
+      </div>
+
+      <!-- Left Column: Trainer Card Sidebar -->
+      <aside class="side">
+        <div class="side-tag">
+          <span class="mini-ball"></span>Trainer Details
+        </div>
+
+        <div class="side-hero">
+          <div class="side-stats" aria-hidden="true">
+            <span class="side-stat ht"><i>HT</i>5'9"</span>
+            <span class="side-stat lvl"><i>LVL</i>21</span>
+          </div>
+
+          <div class="trainer-portrait-wrap">
+            <div class="trainer-portrait-inner">
+              <img src="avatar.png" alt="Chakka Chinni Krishna" />
+            </div>
+          </div>
+          <div class="side-shadow" aria-hidden="true"></div>
+        </div>
+
+        <h1 class="side-name">Chakka Chinni Krishna</h1>
+        <p class="side-role">Full-Stack Developer · Agentic AI</p>
+        <p class="side-tagline">Building robust web platforms &amp; intelligent AI systems with precision and craft.</p>
+
+        <div class="side-facts">
+          <span><i>📍</i>Phagwara, Punjab · Assam, India</span>
+          <span><i>🎓</i>B.Tech CSE @ Lovely Professional Univ.</span>
+          <span><i>🚀</i>Seeking 2026/2027 Opportunities</span>
+        </div>
+
+        <!-- Core Stack Block -->
+        <div class="side-block">
+          <span class="side-label">Core Stack</span>
+          <div class="pdx-chips side-chips">
+            <span class="pdx-chip">React</span>
+            <span class="pdx-chip">Next.js</span>
+            <span class="pdx-chip">FastAPI</span>
+            <span class="pdx-chip">Flask</span>
+            <span class="pdx-chip">TypeScript</span>
+            <span class="pdx-chip">Python</span>
+            <span class="pdx-chip">C++</span>
+            <span class="pdx-chip">MongoDB</span>
+            <span class="pdx-chip">PostgreSQL</span>
+            <span class="pdx-chip">Drizzle ORM</span>
+            <span class="pdx-chip">Agentic AI</span>
+            <span class="pdx-chip">Git &amp; CI/CD</span>
+          </div>
+        </div>
+
+        <!-- Links Block -->
+        <div class="side-block">
+          <span class="side-label">Connect &amp; Contact</span>
+          <div class="side-links">
+            <a href="https://vercel.com/grayvipers-projects" target="_blank" rel="noopener">
+              Vercel Profile <span>↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/chinni-krishna8" target="_blank" rel="noopener">
+              LinkedIn <span>↗</span>
+            </a>
+            <a href="https://github.com/GrayViper" target="_blank" rel="noopener">
+              GitHub (@GrayViper) <span>↗</span>
+            </a>
+            <a href="mailto:chakkaanil6@gmail.com">
+              Email <span>↗</span>
+            </a>
+            <a href="124142982krishna.pdf" target="_blank" rel="noopener">
+              Resume (PDF) <span>↗</span>
+            </a>
+            <a href="tel:+918135839393">
+              +91 8135839393 <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right Column: Content Panels -->
+      <section class="main">
+
+        <!-- About Panel -->
+        <section class="sec">
+          <h2 class="sec-title">About Me</h2>
+          <p class="pdx-lead">
+            I'm Chinni Krishna, a Computer Science &amp; Engineering undergraduate at Lovely Professional University, a full-stack engineer, and an Agentic AI builder with a strong passion for architecting scalable, high-performance web products.
+          </p>
+          <p class="pdx-lead">
+            I enjoy transforming ambiguous challenges into elegant, highly functional digital solutions — whether that's architecting automated career and scholarship discovery platforms (<a href="projects.html">Career_Genie</a>), engineering high-throughput link management hubs with modern typography (<a href="projects.html">hi_links</a>), or creating AI health assistants with real-time crisis detection and nutrition planning (<a href="projects.html">Cura-AI-Health</a>).
+          </p>
+          <div id="aboutMore" class="about-more">
+            <p class="pdx-lead">
+              My engineering stack centers around TypeScript, React, Next.js, Python, FastAPI, Flask, and relational &amp; document databases (PostgreSQL with Drizzle ORM, MongoDB Atlas). Through practical experience in Agentic AI, I integrate LLM workflows, Postman API architectures, and continuous deployment pipelines (Vercel &amp; Render) to deliver polished software.
+            </p>
+            <p class="pdx-lead">
+              Looking for a dedicated developer for an internship, full-time role, or collaborative project? You can reach me directly at <a href="mailto:chakkaanil6@gmail.com">chakkaanil6@gmail.com</a>.
+            </p>
+          </div>
+          <button id="aboutToggleBtn" class="about-toggle-btn" aria-expanded="false" type="button">
+            <span class="about-toggle-text">Read More</span>
+            <span class="about-toggle-icon">↓</span>
+          </button>
+        </section>
+
+        <!-- Experience & Training Panel -->
+        <section class="sec">
+          <h2 class="sec-title">Experience &amp; Training</h2>
+          <div class="xp" id="xp">
+            <div class="xp-tabs" role="tablist">
+              <button class="xp-co is-active" data-co="0">Xebia (Agentic AI)</button>
+              <button class="xp-co" data-co="1">LPU (Academic)</button>
+            </div>
+
+            <div class="xp-details">
+              <!-- Tab 0: Xebia -->
+              <div class="xp-detail is-active" data-co="0">
+                <h4>Fullstack Trainee (Agentic A.I) <span>@ Xebia</span></h4>
+                <p class="xp-date">Jun 2026 – Jul 2026 · Project &amp; Workflow Training</p>
+                <ul>
+                  <li>Pioneered agentic development workflows utilizing Notion, Notebook LLM, and Postman for comprehensive architectural design and automated API integration.</li>
+                  <li>Collaborated across multi-platform development tooling using GitHub Copilot, Kiro, Antigravity, and AI vibe-coding methodologies.</li>
+                  <li>Implemented disciplined GitHub version control strategies for bug tracing; deployed MongoDB Atlas backends on Render and connected auto-deployment pipelines on Vercel for frontend releases.</li>
+                </ul>
+              </div>
+
+              <!-- Tab 1: LPU -->
+              <div class="xp-detail" data-co="1">
+                <h4>B.Tech in Computer Science &amp; Engineering <span>@ Lovely Professional University</span></h4>
+                <p class="xp-date">Aug 2024 – Present · Phagwara, Punjab (CGPA: 7.2)</p>
+                <ul>
+                  <li>Gained rigorous foundation in Data Structures, Algorithms, Object-Oriented Programming (C++), Relational &amp; NoSQL Database Design, and Operating Systems.</li>
+                  <li>Developed production-ready full-stack web applications and participated in competitive coding contests and intra-college hackathons.</li>
+                  <li>Cultivated strong problem-solving, communication, and cross-functional team collaboration skills.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Side Quests Section (Links to Dedicated Pages) -->
+        <section class="sec" id="quests">
+          <h2 class="sec-title">Side Quests</h2>
+          <p class="pdx-lead" style="margin-bottom: 18px;">
+            Explore dedicated quest logs detailing my projects, academic background, certifications, and milestones.
+          </p>
+          <div class="pdx-projects">
+
+            <!-- Quest 1: Projects -->
+            <a class="pdx-proj" href="projects.html">
+              <div class="pdx-proj-header">
+                <div>
+                  <span class="pdx-proj-dex">QUEST NO. 01</span>
+                  <h4>Projects &amp; Builds</h4>
+                </div>
+                <span class="pdx-proj-arrow">↗</span>
+              </div>
+              <p>Full-stack platforms, AI health assistants &amp; modern web apps built with Next.js, FastAPI, React, and Gemini API deployed live on Vercel.</p>
+              <div class="pdx-proj-tags">
+                <span class="pdx-proj-tag" style="background:#2fa36b; color:#fff;">▲ Live on Vercel</span>
+                <span class="pdx-proj-tag">Career_Genie</span>
+                <span class="pdx-proj-tag">hi_links</span>
+                <span class="pdx-proj-tag">Cura-AI-Health</span>
+                <span class="pdx-proj-tag">Quick Bite</span>
+              </div>
+            </a>
+
+            <!-- Quest 2: Education -->
+            <a class="pdx-proj" href="education.html">
+              <div class="pdx-proj-header">
+                <div>
+                  <span class="pdx-proj-dex">QUEST NO. 02</span>
+                  <h4>Education &amp; Academics</h4>
+                </div>
+                <span class="pdx-proj-arrow">↗</span>
+              </div>
+              <p>Academic foundation at Lovely Professional University (B.Tech CSE, CGPA: 7.2), KV Maligaon, and St. Basil's Academy.</p>
+              <div class="pdx-proj-tags">
+                <span class="pdx-proj-tag">B.Tech CSE</span>
+                <span class="pdx-proj-tag">LPU</span>
+                <span class="pdx-proj-tag">CGPA: 7.2</span>
+              </div>
+            </a>
+
+            <!-- Quest 3: Certifications -->
+            <a class="pdx-proj" href="certifications.html">
+              <div class="pdx-proj-header">
+                <div>
+                  <span class="pdx-proj-dex">QUEST NO. 03</span>
+                  <h4>Gym Badges &amp; Certs</h4>
+                </div>
+                <span class="pdx-proj-arrow">↗</span>
+              </div>
+              <p>Verified credentials &amp; badges in Python, DBMS, Linux, C++, Software Testing, CyberSmart, and Hackathons.</p>
+              <div class="pdx-proj-tags">
+                <span class="pdx-proj-tag">Infosys</span>
+                <span class="pdx-proj-tag">Udemy</span>
+                <span class="pdx-proj-tag">Edtechniketan</span>
+                <span class="pdx-proj-tag">Skillera</span>
+              </div>
+            </a>
+
+            <!-- Quest 4: Achievements -->
+            <a class="pdx-proj" href="achievements.html">
+              <div class="pdx-proj-header">
+                <div>
+                  <span class="pdx-proj-dex">QUEST NO. 04</span>
+                  <h4>Achievements &amp; Milestones</h4>
+                </div>
+                <span class="pdx-proj-arrow">↗</span>
+              </div>
+              <p>Hostel speech competition finalist &amp; marathon finisher demonstrating public communication and athletic discipline.</p>
+              <div class="pdx-proj-tags">
+                <span class="pdx-proj-tag">Speech Contest (5th)</span>
+                <span class="pdx-proj-tag">Marathon Finisher</span>
+              </div>
+            </a>
+
+          </div>
+        </section>
+
+      </section>
+    </div>
+
+    <!-- Playful Footer: Drop a Pokémon into the Crowd -->
+    <footer class="pfoot">
+      <div class="pfoot-cta">
+        <p class="pfoot-title">Gotta Catch 'Em All</p>
+        <p class="pfoot-sub">Every visitor leaves a Pokémon behind. Add yours to Krishna's crowd.</p>
+        <button id="pfootBtn" class="pfoot-btn">＋ Drop a Pokémon</button>
+        <span id="pfootCount" class="pfoot-count">Loading Pokémon crowd…</span>
+      </div>
+      <div class="pfoot-stage" id="pfootStage"></div>
+      <div class="pfoot-ground" aria-hidden="true"></div>
+    </footer>
+
+    <!-- Legal & Credits Footer -->
+    <footer class="legal">
+      <p>Pokémon © Nintendo, Game Freak &amp; Creatures Inc. An unofficial fan project inspired by the Pokédex universe.</p>
+      <p>© 2026 Chakka Chinni Krishna. Engineered with TypeScript, modern CSS, and love. No personal data tracked.</p>
+      <p class="legal-sign">GrayViper 💛</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
