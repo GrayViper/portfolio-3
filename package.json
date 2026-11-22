@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Pokédex-themed developer portfolio for Chakka Chinni Krishna",
   "scripts": {
-    "dev": "node server.js",
-    "serve": "node server.js"
+    "dev": "node dev-server.js",
+    "serve": "node dev-server.js"
   },
   "keywords": [
     "portfolio",
