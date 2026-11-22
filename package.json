@@ -2,9 +2,7 @@
   "name": "chinni-krishna-portfolio",
   "version": "1.0.0",
   "description": "Pokédex-themed developer portfolio for Chakka Chinni Krishna",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "dev": "node server.js",
     "serve": "node server.js"
   },

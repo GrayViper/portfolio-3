@@ -28,7 +28,11 @@ const server = http.createServer((req, res) => {
   if (reqPath === "/achievements") reqPath = "/achievements.html";
 
   const safePath = path.normalize(reqPath).replace(/^(\.\.[\/\\])+/, "");
-  const filePath = path.join(__dirname, safePath);
+  let filePath = path.join(__dirname, safePath);
+  if (!fs.existsSync(filePath)) {
+    const cwdPath = path.join(process.cwd(), safePath);
+    if (fs.existsSync(cwdPath)) filePath = cwdPath;
+  }
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
